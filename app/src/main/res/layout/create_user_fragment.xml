@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/full_name_txt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/full_name"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="25dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.505" />
+
+    <EditText
+        android:id="@+id/login_txt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="@string/login"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="@+id/full_name_txt"
+        app:layout_constraintRight_toRightOf="@+id/full_name_txt"
+        app:layout_constraintTop_toBottomOf="@+id/full_name_txt"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <EditText
+        android:id="@+id/pass_txt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="7dp"
+        android:ems="10"
+        android:hint="@string/pass"
+        android:inputType="textPassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/login_txt"
+        app:layout_constraintRight_toRightOf="@+id/login_txt"
+        app:layout_constraintTop_toBottomOf="@+id/login_txt" />
+
+    <CheckBox
+        android:id="@+id/is_worker_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/is_worker"
+        app:layout_constraintLeft_toLeftOf="@+id/pass_txt"
+        app:layout_constraintTop_toBottomOf="@+id/room_txt" />
+
+    <EditText
+        android:id="@+id/room_txt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/room"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="@+id/pass_txt"
+        app:layout_constraintRight_toRightOf="@+id/pass_txt"
+        app:layout_constraintTop_toBottomOf="@+id/pass_txt" />
+
+    <Button
+        android:id="@+id/create_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/create"
+        app:layout_constraintLeft_toLeftOf="@+id/room_txt"
+        app:layout_constraintRight_toRightOf="@+id/room_txt"
+        app:layout_constraintTop_toBottomOf="@+id/room_txt" />
+</android.support.constraint.ConstraintLayout>

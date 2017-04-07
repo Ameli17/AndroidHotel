@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HotelService</string>
+    <string name="welcome">Welcome!!!</string>
+    <string name="login">Login</string>
+    <string name="pass">Password</string>
+    <string name="reg">Registration</string>
+    <string name="full_name">Full name</string>
+    <string name="is_worker">Is worker</string>
+    <string name="room">Room</string>
+    <string name="create">Create!</string>
+    <string name="can_not_create_user">Can\'t create user</string>
+    <string name="logining_user">Logining user...</string>
+    <string name="loaded_task_type">Loaded task types</string>
+    <string name="submit">Submit</string>
+    <string name="updating_supporting_task_type">Updating supporting task types...</string>
+    <string name="can_not_update_supported_task_type">Can\'t update supported task types</string>
+    <string name="success_update_supported_task">Supported tasks was updated</string>
+    <string name="add_new_task">Create new task</string>
+    <string name="creating_new_task">Creating new task....</string>
+    <string name="creator">Creator: %s</string>
+    <string name="worker">Worker: %s</string>
+    <string name="task_name">Name: %s</string>
+    <string name="status">Status: %s</string>
+    <string name="show_tasks">Show task</string>
+    <string name="loading_task">Loading tasks</string>
+
+    <string name="task_status_created">TASK_STATUS_CREATED</string>
+    <string name="task_status_in_progress">TASK_STATUS_IN_PROGRESS</string>
+    <string name="task_status_done">TASK_STATUS_DONE</string>
+    <string name="changing_type">Changing task type</string>
+</resources>

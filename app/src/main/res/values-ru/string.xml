@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Отельный сервис</string>
+        <string name="welcome">Добро Пожаловать!!!</string>
+        <string name="login">Логин</string>
+        <string name="pass">Пароль</string>
+        <string name="reg">Регистрация</string>
+        <string name="full_name">Имя</string>
+        <string name="is_worker">Персонал</string>
+        <string name="room">Комната</string>
+        <string name="create">Создать!</string>
+        <string name="can_not_create_user">Невозможно создать данного пользователя</string>
+        <string name="logining_user">Вход в систему...</string>
+        <string name="loaded_task_type">Загрузка типов заданий</string>
+        <string name="submit">Отправить</string>
+        <string name="updating_supporting_task_type">Обновление типов заданий...</string>
+        <string name="can_not_update_supported_task_type">Невозможно обновить типы заданий</string>
+        <string name="success_update_supported_task">Типы заданий были оновлены</string>
+    </resources>
